@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NASA Image Search</title>
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body class="container">
+    <h1>NASA Image Search</h1>
+    <div id="message-danger" class="message-danger">
+      Something wrong happens. Please try again!
+    </div>
+    <div id="message-info" class="message-info">
+      There is no result to show.
+    </div>
+    <div>
+      <input id="imageName" placeholder="Search Images. Default: Earth">
+    </div>
+    <div class="loader">
+      <h2 id="loader__message">Loading...</h2>
+    </div>
+    <section id="imagesList"  class="images">
+    </section>
+    <script src="src/index.js"></script>
+  </body>
+</html>
